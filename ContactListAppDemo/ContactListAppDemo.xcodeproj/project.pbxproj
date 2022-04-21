@@ -16,9 +16,10 @@
 		F64A5648280F194B00B0EFB2 /* ContactListAppDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64A5647280F194B00B0EFB2 /* ContactListAppDemoTests.swift */; };
 		F64A5652280F194B00B0EFB2 /* ContactListAppDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64A5651280F194B00B0EFB2 /* ContactListAppDemoUITests.swift */; };
 		F64A5654280F194B00B0EFB2 /* ContactListAppDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64A5653280F194B00B0EFB2 /* ContactListAppDemoUITestsLaunchTests.swift */; };
-		F64A5661280F196E00B0EFB2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F64A5660280F196E00B0EFB2 /* GoogleService-Info.plist */; };
 		F64A5664280F1AA500B0EFB2 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = F64A5663280F1AA500B0EFB2 /* FirebaseAnalytics */; };
 		F64A5666280F1AA500B0EFB2 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = F64A5665280F1AA500B0EFB2 /* FirebaseDatabase */; };
+		F693F7CF2811BA940052333D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F693F7CE2811BA940052333D /* GoogleService-Info.plist */; };
+		F693F7D12811BBFF0052333D /* ResulltViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F693F7D02811BBFF0052333D /* ResulltViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +53,8 @@
 		F64A564D280F194B00B0EFB2 /* ContactListAppDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactListAppDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F64A5651280F194B00B0EFB2 /* ContactListAppDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListAppDemoUITests.swift; sourceTree = "<group>"; };
 		F64A5653280F194B00B0EFB2 /* ContactListAppDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListAppDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		F64A5660280F196E00B0EFB2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F693F7CE2811BA940052333D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F693F7D02811BBFF0052333D /* ResulltViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResulltViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		F64A562F280F194A00B0EFB2 /* ContactListAppDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F693F7CE2811BA940052333D /* GoogleService-Info.plist */,
 				F64A5630280F194A00B0EFB2 /* AppDelegate.swift */,
 				F64A5632280F194A00B0EFB2 /* SceneDelegate.swift */,
 				F64A5634280F194A00B0EFB2 /* ViewController.swift */,
@@ -112,6 +115,7 @@
 				F64A5639280F194B00B0EFB2 /* Assets.xcassets */,
 				F64A563B280F194B00B0EFB2 /* LaunchScreen.storyboard */,
 				F64A563E280F194B00B0EFB2 /* Info.plist */,
+				F693F7D02811BBFF0052333D /* ResulltViewController.swift */,
 			);
 			path = ContactListAppDemo;
 			sourceTree = "<group>";
@@ -129,7 +133,6 @@
 			children = (
 				F64A5651280F194B00B0EFB2 /* ContactListAppDemoUITests.swift */,
 				F64A5653280F194B00B0EFB2 /* ContactListAppDemoUITestsLaunchTests.swift */,
-				F64A5660280F196E00B0EFB2 /* GoogleService-Info.plist */,
 			);
 			path = ContactListAppDemoUITests;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F64A563D280F194B00B0EFB2 /* LaunchScreen.storyboard in Resources */,
+				F693F7CF2811BA940052333D /* GoogleService-Info.plist in Resources */,
 				F64A563A280F194B00B0EFB2 /* Assets.xcassets in Resources */,
 				F64A5638280F194A00B0EFB2 /* Main.storyboard in Resources */,
 			);
@@ -262,7 +266,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F64A5661280F196E00B0EFB2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F693F7D12811BBFF0052333D /* ResulltViewController.swift in Sources */,
 				F64A5635280F194A00B0EFB2 /* ViewController.swift in Sources */,
 				F64A5631280F194A00B0EFB2 /* AppDelegate.swift in Sources */,
 				F64A5633280F194A00B0EFB2 /* SceneDelegate.swift in Sources */,
